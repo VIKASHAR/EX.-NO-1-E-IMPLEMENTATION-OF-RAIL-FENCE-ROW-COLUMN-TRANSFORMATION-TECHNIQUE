@@ -16,7 +16,7 @@ STEP-4: Arrange the characters of the keyword in sorted order and the correspond
 STEP-5: Read the characters row wise or column wise in the former order to get the cipher text.
 
 ## PROGRAM:
-'''python
+```python
   def encrypt(text, key):
   	rail = [['\n' for i in range(len(text))] for j in range(key)]
   	dir_down = False
@@ -85,7 +85,8 @@ STEP-5: Read the characters row wise or column wise in the former order to get t
   d = decrypt(e, key)
   print("CipherText: ",e)
   print("Decrypted Text: ",d)
-'''
+
+  ```
 
 
 ## OUTPUT:
